@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import Netflixlogo from "../../assets/images/Netflixlogo.png"
 import SearchIcon from '@mui/icons-material/Search';
-import NotificationsNone from '@mui/icons-material/NotificationsNone';
+import NotificationAddIcon from '@mui/icons-material/NotificationAdd';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const Header = () =>
@@ -27,7 +27,7 @@ const Header = () =>
 <div className= "header_right">
 <ul>
 <li><SearchIcon/></li>
-<li><NotificationsNone Icon /></li>
+<li><NotificationAddIcon/></li>
 <li><AccountBoxIcon /></li>
 <li><ArrowDropDownIcon /></li>
 </ul>
