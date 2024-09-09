@@ -1,5 +1,5 @@
 .banner {
-  margin-top: -10vh;
+  margin-top: 10vh;
   height: 80vh;
   margin-bottom: -80px;
   color: white;
@@ -8,7 +8,8 @@
 
 .banner_contents {
   margin-left: 30px;
-  padding-top: 300px; /* height: 190px; */
+  padding-top: 100px; 
+  height: 190px;
 }
 .banner_title {
   font-size: 3rem;
